@@ -23,5 +23,6 @@ if(x <= -50)
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 06A68018
-/// @DnDArgument : "code" "x-=10;"
-x-=10;
+/// @DnDArgument : "code" "global.speed = global.score1/global.scoreR;$(13_10)x-=10+global.speed;"
+global.speed = global.score1/global.scoreR;
+x-=10+global.speed;

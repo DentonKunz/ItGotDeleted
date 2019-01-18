@@ -9,3 +9,12 @@ bumpYes = 2;
 jump = 0;
 bump = 0;
 y = 680;
+
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 24361082
+/// @DnDArgument : "imageind_relative" "1"
+/// @DnDArgument : "spriteind" "spr_Murphy"
+/// @DnDSaveInfo : "spriteind" "574c7a00-3e4e-4844-aabb-557b785bd122"
+sprite_index = spr_Murphy;
+image_index += 0;
